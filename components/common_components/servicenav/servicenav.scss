@@ -1,0 +1,33 @@
+@import '../../../styles/variables.scss';
+
+.navWrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+}
+
+.navSpacer {
+    width: 15vw;
+    height: 100px;
+    min-width: 250px;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: underline;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+    li {
+        display: flex;
+        align-items: center;
+        border: 1px solid black;
+        padding: 1rem 2rem;
+        a {
+            color: $lightBlack;
+        }
+    }
+  }
