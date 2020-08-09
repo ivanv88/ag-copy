@@ -33,7 +33,8 @@ const Navigation = () => {
                         <ul className={ styles.links }>
                             { links.map((val, i) => (
                             <li key={ val } >
-                            <Link href={ hrefs[i] }><a className={ styles.link } >{ val }</a></Link></li>
+                            {val === 'Usluge' ? (<Link href='/usluge/[id]' as={hrefs[i]}><a className={ styles.link } >{ val }</a></Link>) : (<Link href={ hrefs[i] }><a className={ styles.link } >{ val }</a></Link>)}
+                            </li>
                             ))}
                         </ul>
                     </div>

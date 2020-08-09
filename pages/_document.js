@@ -3,9 +3,9 @@ import Document, { Head, Main, NextScript } from "next/document";
 export default class MyDocument extends Document {
   render() {
     return (
-      <html>
+      <html lang="sr">
         <Head>
-          <link rel="stylesheet" href="/_next/static/css/styles.chunk.css" />
+          <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

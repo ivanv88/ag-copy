@@ -1,21 +1,19 @@
 import React from 'react'
 import Head from 'next/head'
-import { useRouter } from 'next/router';
 import Nav from '../../components/common_components/navigation/navigation'
 import ServiceComponent from '../../components/page_components/service/service'
 import ServiceNav from '../../components/common_components/servicenav/servicenav'
 
-const Service = (props) => {
+const Service = () => {
     
-    const router = useRouter();
-
     return (
   <div className="appWrapper">
     <Head>
       <title>Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no,shrink-to-fit=no"/>
+      <meta content="AG Copy, Fotokopirnica u samom Centru Beograda. Fotokopiranje, štampa, koričenje, izrada plastičnih ID kartica, štampa na majicama, šoljama, privescima." name="description"/>
       <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,900&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></link>
-
     </Head>
     <Nav />
     <ServiceNav />
