@@ -80,6 +80,8 @@
 .iconContainer {
     height: 3.3vw;
     width: 3.3vw;
+    min-width: 50px;
+    min-height: 50px;
     border: 1px solid $black;
     border-radius: 50%;
     overflow: hidden;
@@ -108,5 +110,21 @@
         top: 50%;
         right: 3vw;
         opacity: 0;
+    }
+}
+@media(max-width: 1300px) {
+    .title {
+        font-size: .8rem;
+    }
+    .link {
+        font-size: 1.4rem;
+    }
+    .iconContainer {
+        i {
+            font-size: 46px;
+            color: $black;
+            margin-left: -.35vw;
+            margin-bottom: -.15vw;
+        }
     }
 }

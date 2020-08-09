@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React from 'react'
 import Tab from '../tab/tab'
 import styles from './grid.scss'
 
@@ -7,8 +7,8 @@ const services = [
         "title": "Kopirnica",
         "text": "Mi smo AG Copy, ",
         "link": "",
-        "text2": "vasa kreativna fotokopirnica! ",
-        "text3": "Radno vreme: pon-pet 09-17h, vase originale mozete slati na kopirnica@gmail.com ",
+        "text2": "Vaša kreativna fotokopirnica! ",
+        "text3": "Radno vreme: pon-pet 09-17h, Vaše originale mozete slati email-om na kopirnica.ag@gmail.com",
         "spanC": "2",
         "spanR": "2",
         "color": "#e9e9e9",
@@ -19,15 +19,17 @@ const services = [
     {
         "title": "Digitalna stampa", 
         "subtitle": "Detalji i cene",
-        "link": "Štampanje i kopiranje",
+        "link": "Štampanje kopiranje i skeniranje",
         "icon": ["far", "fa-hand-point-right"],
         "spanC": "1",
         "spanR": "1",
         "color": "#dad2d2",
-        "class": "small"
+        "bgColor": "#e9e9e9",
+        "class": "small",
+        "index": "0"
     },
     {
-        "title": "Portfolio", 
+        "title": "011/3294 756; 066/ 5000 456", 
         "link": "",
         "spanC": "1",
         "spanR": "1",
@@ -38,14 +40,16 @@ const services = [
         "overlay": "false"
     },
     {
-        "title": "Stampanje", 
-        "link": "Reklamni materijal",
+        "title": "Štampanje", 
+        "link": "Reklamni materijal i ID kartice",
         "subtitle": "Detalji i cene",
         "spanC": "1",
         "spanR": "1",
         "color": "#bcbdbc",
+        "bgColor": "#fff2f2",
         "class": "small",
-        "icon": ["far", "fa-hand-point-right"]
+        "icon": ["far", "fa-hand-point-right"],
+        "index": "2"
     },
     {
         "title": "Plotovanje", 
@@ -54,21 +58,25 @@ const services = [
         "spanC": "1",
         "spanR": "1",
         "color": "#dad2d2",
+        "bgColor": "#f4f1d3",
         "class": "small",
-        "icon": ["far", "fa-hand-point-right"]
+        "icon": ["far", "fa-hand-point-right"],
+        "index": "1"
     },
     {
-        "title": "Stampanje", 
-        "link": "Koricenje",
+        "title": "Štampanje", 
+        "link": "Koričenje",
         "subtitle": "Detalji i cene",
         "spanC": "1",
         "spanR": "1",
-        "color": "#b3c5bd",
+        "color": "#c2d7ce",
+        "bgColor": "#f4f1d3",
         "class": "small",
-        "icon": ["far", "fa-hand-point-right"]
+        "icon": ["far", "fa-hand-point-right"],
+        "index": "3"
     },
     {
-        "title": "Stampanje", 
+        "title": "Tržni centar ktitor, Bul. Despota Stefana", 
         "link": "",
         "spanC": "2",
         "spanR": "1",
@@ -84,9 +92,11 @@ const services = [
         "subtitle": "Detalji i cene",
         "spanC": "1",
         "spanR": "1",
-        "color": "#b3c5bd",
+        "color": "#c2d7ce",
+        "bgColor": "#e9e9e9", 
         "class": "small",
-        "icon": ["far", "fa-hand-point-right"]
+        "icon": ["far", "fa-hand-point-right"],
+        "index": "4"
     }
    
 ]
@@ -97,7 +107,7 @@ const Grid = () => {
             <div className={ styles.spacer }></div>
             <div className={ styles.servicesWrapper }>
                 {services.map((value, index) => (
-                    <Tab  key={ index * 64 } data={ value } />
+                    <Tab  key={ index * 64 } data={ value }/>
 
                 ))}
             </div>

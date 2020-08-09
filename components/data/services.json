@@ -1,7 +1,7 @@
 {
-    "štampanje-i-kopiranje": {
+    "štampanje-kopiranje-i-skeniranje": {
         "coverImage": "/mags.jpg",
-        "title": "kopiranje i štampa",
+        "title": "Štampa i kopiranje",
         "description": "",
         "body": [
             {
@@ -12,10 +12,14 @@
                 "type": "p",
                 "content": "Svi dokumenti moraju biti pripremljeni za štampu. Cena štampe je iz cenovnika i NE naplaćuje se otvaranje medija. Svaka proba, priprema i prepravka (ukoliko je moguća) se naplaćuje po cenovniku. Cena A3 je duplo A4 i važi za štampu u crno-belo i u boji."
             },
+            {
+                "type": "p",
+                "content": "Uz standardnu uslugu kopiranja, vršimo štampu svih vrsta memoranduma, diploma, zahvalnica, pohvalnica i sličnih dokumenata."
+            },
             {   "type": "t",
                 "meta": {
                     "width": "3",
-                    "title": "kopiranje i štampa crno-belo",
+                    "title": "Kopiranje i štampa crno-belo",
                     "note": "* U cenu štampe crno-belo uračunat je 80gr.papir i preko 5000 kopija cena po dogovoru"
                 },
                 "content":[
@@ -33,7 +37,7 @@
                 "type": "t",
                 "meta": {
                     "width": "3",
-                    "title": "kopiranje i štampa u boji",
+                    "title": "Kopiranje i štampa u boji",
                     "note": "* Doplata za spec. papir: 100gr.+3,00  ; 160gr. +6,00; 200gr +8,00; 250gr.+10,00 nalepnica +20,00; papir u boji +3,00;"
                 },
                 "content":[
@@ -48,9 +52,284 @@
                 ]
             },
             {
-                "type": "h2"
+                "type": "t",
+                "meta": {
+                    "width": "2",
+                    "title": "Memorandumi",
+                    "note": "* Kolor A4 na 80 gr. papiru (bez pozadine)"
+                },
+                "content":[
+                    "Minimalna količina 300 kopija", "Preko 1000 kopija",
+                    "17 RSD / kom", "14 RSD / kom"
+                ]
+            },
+            {
+                "type": "h2",
+                "content": "Skeniranje"
+            },
+            {
+                "type": "p",
+                "content": "Skeniranje – prebacivanje teksta ili slike sa papira u digitalnu formu. Skeniramo u formatima JPEG i PDF."
+            },
+            {
+                "type": "p",
+                "content": "Skenirani fajl prebacujemo na Vaš USB – bez dodatne naknade."
+            },
+            {
+                "type": "p",
+                "content": "Ukoliko želite da fajl bude narezan na CD,DVD ili poslat na e-mail to se dodatno naplaćuje."
+            },
+            {
+                "type": "p",
+                "content": "Skeniranje knjiga ili većeg broja strana – po dogovoru."
+            },
+            {
+                "type": "t",
+                "meta": {
+                    "width": "3",
+                    "title": "Cenovnik skeniranja"
+                },
+                "content":[
+                    "Broj skena", "A4", "A3",
+                    "1 - 15", "20,00 RSD", "30,00 RSD",
+                    "16 - 50", "15,00 RSD", "25,00 RSD",
+                    "Preko 50", "10,00 RSD", "20,00 RSD"
+                ]
+            },
+            {   "type": "t",
+                "meta": {
+                    "width": "2",
+                    "title": "Očitavanje dokumenata"
+                },
+                "content":[
+                    "Dokument", "Cena",
+                    "Lična karta", "20,00 RSD", 
+                    "Zdravstvena knjižica", "50,00 RSD", 
+                    "Saobraćajna dozvola", "20,00 RSD" 
+                ]
+            },
+            {
+                "type": "p",
+                "content": "Za sve ostale informacije možete nam se obratiti putem telefona ili email-a."
             }
-        
         ]
+        },
+        "veliki-formati": {
+            "coverImage": "/veliki_formati.jpg",
+            "title": "Veliki formati",
+            "description": "",
+            "body": [
+                {
+                    "type": "p",
+                    "content": "Štampa do širine 1 m, neograničene dužine na različitim materijalima. Uradite poster, plakat, sliku, fotografiju, reklamu i drugo."
+                },
+                {
+                    "type": "t",
+                    "meta": {
+                        "width": "5",
+                        "title": "Štampa velikih formata",
+                        "note": "* Cene su po dužnom metru ili formatu"
+                    },
+                    "content":[
+                        "Formati", "Papir 180g", "Papir 80g", "Baner", "Kanvas", 
+                        "A0 (841x1189)", "1750 RSD", "1500 RSD", "/","/",
+                        "A1 (594X841)", "900 RSD", "650 RSD", "/", "/",
+                        "A2 (420X594)", "460 RSD", "330 RSD", "/", "/", 
+                        "Širina 610 mm", "1100 RSD", "800 RSD", "2000 RSD", "/",
+                        "Širina 914 mm", "1500 RSD", "1300 RSD", "2000 RSD", "2700 RSD"
+                    ]
+                },
+                {
+                    "type": "t",
+                    "meta": {
+                        "width": "3",
+                        "title": "Linijska štampa - plotovanje",
+                        "note": "* Cene su po dužnom metru ili formatu"
+                    },
+                    "content":[
+                        "Formati", "Papir 180g", "Papir 80g",
+                        "A0 (841x1189)", "700 RSD", "550 RSD",
+                        "A1 (594X841)", "350 RSD", "300 RSD",
+                        "A2 (420X594)", "170 RSD", "150 RSD", 
+                        "Širina 610 mm", "420 RSD", "360 RSD",
+                        "Širina 914 mm", "600 RSD", "470 RSD"
+                    ]
+                },
+                {
+                    "type": "p",
+                    "content": "Za štampanje površina koje nisu linije primenjuje se cenovnik za postere"
+                }
+            ]
+        },
+        "vhs-u-digitalni-format": {
+            "coverImage": "/digitalizacija.jpg",
+            "title": "Digitalizacija",
+            "description": "",
+            "body": [
+                {
+                    "type": "p",
+                    "content": "Pružamo Vam mogućnost da Vaše stare snimke koje čuvate na VHS kasetama kasetama prebacite u digitalnu formu na DVD i gledate na Vašem računaru ili TV-u."
+                },
+                {
+                    "type": "p",
+                    "content": "Kvalitet snimka ostaje identičan kao na originalnoj kaseti."
+                },
+                {
+                    "type": "p",
+                    "content": "Prebacivanje VHS-a (bez obzira na dužinu trajanja) iznosi 700 RSD."
+                },
+                {
+                    "type": "p",
+                    "content": "U cenu je uračunata medija (CD/DVD), a za veće količine odobravamo POPUST – kontaktirajte nas."
+                }
+                
+            ]
+        },
+        "koričenje": {
+            "coverImage": "/koricenje.jpg",
+            "title": "Koričenje",
+            "description": "",
+            "body": [
+                {
+                    "type": "p",
+                    "content": "Koričenje podrazumeva spajanje više listova u jednu celinu. Radimo SPIRALNO, TVRDO i koričenje lepkom."
+                },
+                {
+                    "type": "h3",
+                    "content": "SPIRALNO KORIČENJE"
+                },
+                {
+                    "type": "p",
+                    "content": "Spiralno koričenje se sastoji od PVC korice (gore), kartona (dole) i plastične spirale, gde se listovi buše i povezuju spiralom."
+                },
+                {
+                    "type": "p",
+                    "content": "Spiralnim koričenjem se mogu koričiti formati A3, A4, A5, A6."
+                },
+                {
+                    "type": "p",
+                    "content": "Cena zavisi od broja listova i za komplet je data u cenovniku."
+                },
+                {
+                    "type": "t",
+                    "meta": {
+                        "width": "2",
+                        "title": "Spiralno koričenje",
+                        "note": "* Cena zavisi od broja komada, broja stranica i teksta na korici."
+                    },
+                    "content":[
+                        "Veličina spirale", "Komplet",
+                        "6, 8", "60,00 RSD",
+                        "10, 12", "70,00 RSD",
+                        "14, 16", "80,00 RSD",
+                        "19, 22", "110,00 RSD",
+                        "24, 26", "140,00 RSD",
+                        "28, 32", "160,00 RSD",
+                        "Preko 32", "180,00 RSD"
+                    ]
+                },
+                {
+                    "type": "h3",
+                    "content": "TVRDO KORIČENJE"
+                },
+                {
+                    "type": "p",
+                    "content": "Tvrdo koričenje se koristi za koričenje diplomskih, završnih, master, doktorskih, specijalističkih i dr. vrsta radova."
+                },
+                {
+                    "type": "p",
+                    "content": "Listovi se ne buše, već se povezuju sa koricama (gore i dole), a korice su čvrste, neprovidne, imitacija kože u teget, bordo i crnoj boji."
+                },
+                {
+                    "type": "p",
+                    "content": "Format koričenja je A4 ,a maximalan broj listova je 303."
+                },
+                {
+                    "type": "p",
+                    "content": "Na koricama se radi sito štampa, zlatotisk ili srebrotisk."
+                },
+                {
+                    "type": "p",
+                    "content": "Za rad na LATINICI na korici radimo srebrotisk, zlatotisk i sito štampu."
+                },
+                {
+                    "type": "p",
+                    "content": "Za rad na ĆIRILICI na korici radimo samo sito štampu."
+                },
+                {
+                    "type": "p",
+                    "content": "Uobičajeno vreme izrade je 24h, ali može biti i kraće – po dogovoru."
+                },
+                {
+                    "type": "t",
+                    "meta": {
+                        "width": "2",
+                        "title": "Tvrdo koričenje",
+                        "note": "* Cena zavisi od broja komada, broja stranica i teksta na korici."
+                    },
+                    "content":[
+                        "Broj komada", "Cena sa tiskom",
+                        "1", "1500,00 RSD / kom",
+                        "2", "1300,00 RSD / kom",
+                        "3 - 5", "1000,00 RSD / kom",
+                        "6 - 10", "900,00 RSD / kom",
+                        "10 - 15", "750,00 RSD / kom",
+                        "Preko 15", "700,00 RSD / kom",
+                        "Bez tiska", "500,00 - 700,00 RSD / kom"
+                    ]
+                }
+            ]
+        },
+        "reklamni-materijal-i-id-kartice": {
+            "coverImage": "/reklamni_materijal.jpg",
+            "title": "Reklamni materijal",
+            "description": "",
+            "body": [
+                {
+                    "type": "p",
+                    "content": "Radimo štampu reklamnog materijala, štampu na šoljama, štampu na majicama, štampu puzzle slagalica, reklamne staklene kugle, privesci, magneti."
+                },
+                {
+                    "type": "t",
+                    "meta": {
+                        "width": "2",
+                        "title": "Štampa reklamnog materijala"
+                    },
+                    "content":[
+                        "Artikal", "Cena",
+                        "Šolja", "550,00 RSD / kom",
+                        "Magična Šolja", "800,00 RSD / kom",
+                        "Puzzle", "600,00 RSD / kom",
+                        "Kugla", "800,00 RSD / kom",
+                        "Majica", "1300,00 RSD / kom"
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "Plastične kartice"
+                },
+                {
+                    "type": "p",
+                    "content": "Izrada ID kartica, akreditacija, popust i loyalty kartica, članskih kartica, vizit kartica, poklon kartica i slično."
+                },
+                {
+                    "type": "t",
+                    "meta": {
+                        "width": "4",
+                        "title": "Bela kartica / kartica u boji"
+                    },
+                    "content":[
+                        "Količina", "Jedna strana u boji", "Obe strane u boji", "Jedna strana u boji, druga crno-bela",
+                        "1 - 10", "250,00 RSD / kom", "400,00 RSD / kom", "/",
+                        "11 - 50", "200,00 RSD / kom", "300,00 RSD / kom", "/",
+                        "51 - 100", "150,00 RSD / kom", "250,00 RSD / kom", "200,00 RSD / kom",
+                        "Preko 100", "120,00 RSD / kom", "200,00 RSD / kom", "150,00 RSD / kom"
+                    ]
+                },
+                {
+                    "type": "p",
+                    "content": "Za više informacija možete nam se obratiti putem telefona ili email-a."
+                }
+            ]
         }
 }
