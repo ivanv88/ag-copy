@@ -4,7 +4,7 @@ const withSass = require('@zeit/next-sass');
 const withFonts = require('next-fonts');
 
 module.exports = {
-  assetPrefix: !debug ? 'https://ivanv88.github.io/ag-copy/' : '',
+  assetPrefix: !debug ? 'https://ivanv88.github.io/ag-copy/out' : '',
 }
 module.exports = withFonts();
 module.exports = withSass({
