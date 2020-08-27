@@ -18,6 +18,10 @@ export const links = [
   {
     link: "VHS u digitalni format",
     color: "#e9e9e9" 
+  },
+  {
+    link: "Ostale usluge",
+    color: "#fff2f2" 
   }
 ]
 

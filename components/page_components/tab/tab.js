@@ -88,6 +88,9 @@ const Tab = (props) => {
                 .tabDynamicWrapper.small:last-child {
                     grid-column: span 1;
                 }
+                .large span {
+                    word-break: break-word;
+                }
             }
             
 

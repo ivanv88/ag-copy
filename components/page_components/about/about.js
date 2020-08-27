@@ -8,7 +8,7 @@ const About = () => {
         <div className={'about'}>
           <div className={'backgroundImage'}></div>
           <h2>O Nama</h2>
-          <p>AG Copy je porodična fotokopirnica koja posluje od .. godine, a za svo ovo vreme smo stekli poverenje velikog broja stalnih mušterija koji nam se redovno vraćaju.</p>
+          <p>AG Copy je porodična fotokopirnica koja posluje od 2000-te godine, a za svo ovo vreme smo stekli poverenje velikog broja stalnih mušterija koji nam se redovno vraćaju.</p>
         </div>
       </div>
       <style jsx>{`
@@ -68,6 +68,7 @@ const About = () => {
           width: 100%;
       }
       .about {
+          min-width: 0;
           width: 90%;
       }
   }

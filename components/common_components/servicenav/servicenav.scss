@@ -26,6 +26,7 @@
         align-items: center;
         position: relative;
         padding: 1rem 2rem;
+        text-align: center;
         &::after {
             content: "";
             width: 2px;
@@ -35,7 +36,7 @@
             right: 0;
             transform: translateX(50%);
         }
-        &:nth-child(5)::after {
+        &:nth-child(6)::after {
             display: none;
         }
         a {

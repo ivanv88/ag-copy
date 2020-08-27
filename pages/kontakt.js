@@ -95,6 +95,7 @@ const Kontakt = () => (
         width: 100%;
     }
     .contact {
+        min-width: 0;
         width: 90%;
     }
 }

@@ -24,6 +24,7 @@ const Navigation = () => {
         <div className={` ${ styles.verticalNavbarWrapper } ${ open ?  "menuOpen" : "menuClosed" }`}>
             <div className={ styles.menuButton } onClick={() => setOpen(!open)} >
                 <span className={ styles.topSpan }></span>
+                <span className={ styles.middleSpan }></span>
                 <span className={ styles.bottomSpan }></span>
             </div>
             <div className={ styles.verticalNavbarContainer }>
@@ -42,11 +43,11 @@ const Navigation = () => {
                 <div className={ styles.address }>
                     <ul className={styles.icons} >
                         <li><a href='' ><i className={`${icons.fab} ${icons['fa-facebook']}`}></i></a></li>
-                        <li><a href='' ><i className={`${icons.fab} ${icons['fa-instagram']}`}></i></a></li>
+                        <li><a href='https://instagram.com/a.g.copy?igshid=e8ekgkvg6h2l' ><i className={`${icons.fab} ${icons['fa-instagram']}`}></i></a></li>
                         <li><a href='https://goo.gl/maps/NX64qxvgth81Qw7x5' ><i className={`${icons.fas} ${icons['fa-map-marked-alt']}`}></i></a></li>
                     </ul>
                     <ul className={ styles.info } >
-                        <li>Ulica Šajkaška 44</li>
+                        <li>Bulevar Despota Stefana 68a (U Pasažu)</li>
                         <li>011/ 3294 756</li>
                         <li>066/ 5000 456</li>
                         <li><a href="mailto:kopirnica.ag@gmail.com">kopirnica.ag@gmail.com</a></li>

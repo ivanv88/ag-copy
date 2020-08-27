@@ -33,16 +33,17 @@ const ServiceNav = () => {
                         color: #d03b28;
                     }
                     .drawer {
-                        border-top: 1px solid #b2b2b2;
+                        border-top: 1px solid #d2d2d2;
                         cursor:pointer;
                         color: #333333;
                         font-size: 18px;
                         padding-top: 29px;
                         padding-bottom: 20px;
                         margin-top: 12px;
+                        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 20px 0px;
                     }
                     .openDrawer {
-                        transform: translateY(-264px);
+                        transform: translateY(-315px);
                     }
                     @media(min-width: 761px) {
                         .drawer {

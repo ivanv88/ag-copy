@@ -39,7 +39,8 @@ const tableDataStyle = {
     color: "#333333",
     letterSpacing: "1px",
     padding: "1rem 0 .4rem 1rem",
-    borderBottom: "1px solid #b2b2b2"
+    borderBottom: "1px solid #b2b2b2",
+    wordBreak: "break-word"
 }
 
 const paragraphStyle = {
@@ -91,7 +92,7 @@ const build = (body) => {
                             <h2 style={ tableTitleStyle } >{ body[i].meta.title }</h2>
                         </div>
                         { body[i].content.map((value, i) => (
-                            <div key={ i * 77 } style={ tableDataStyle }>{ value }</div>
+                            <div  className={ "tableData" } key={ i * 77 } style={ tableDataStyle }>{ value }</div>
                         )) }
                     </div>
                 <div style={ tableNoteStyle } >
@@ -186,13 +187,17 @@ const Service = () => {
                 width: 100%;
             }
             .service {
-                width: 90%;
+                width: 95%;
+                min-width: 0;
             }
             .coverImage {
                 height: 250px;
             }
             .serviceWrapper {
                 padding-top: 70px;
+            }
+            :global(.tableData) {
+                font-size: .9rem!important;
             }
         }
     

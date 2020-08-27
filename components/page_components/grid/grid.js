@@ -8,7 +8,7 @@ const services = [
         "text": "Mi smo AG Copy, ",
         "link": "",
         "text2": "Vaša kreativna fotokopirnica! ",
-        "text3": "Radno vreme: pon-pet 09-17h, Vaše originale mozete slati email-om na kopirnica.ag@gmail.com",
+        "text3": "Radno vreme: pon-pet 09-17h, Vaša dokumenta možete slati email-om na kopirnica.ag@gmail.com",
         "spanC": "2",
         "spanR": "2",
         "color": "#e9e9e9",
@@ -29,15 +29,17 @@ const services = [
         "index": "0"
     },
     {
-        "title": "011/3294 756; 066/ 5000 456", 
-        "link": "",
+        "title": "razno", 
+        "link": "Ostale usluge",
+        "subtitle": "Detalji i cene",
         "spanC": "1",
         "spanR": "1",
         "color": "#bcbdbc",
+        "bgColor": "#fff2f2",
         "class": "small",
         "image": "mug.jpg",       
-        "icon": [],
-        "overlay": "false"
+        "icon": ["far", "fa-hand-point-right"],
+        "index": "5"
     },
     {
         "title": "Štampanje", 
@@ -76,7 +78,7 @@ const services = [
         "index": "3"
     },
     {
-        "title": "Tržni centar ktitor, Bul. Despota Stefana", 
+        "title": "Bul. Despota Stefana 68a (U Pasažu)", 
         "link": "",
         "spanC": "2",
         "spanR": "1",
