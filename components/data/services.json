@@ -365,7 +365,7 @@
                     "meta": {
                         "width": "2",
                         "title": "Plastifikacija",
-                        "note": "Plastifikacija je obostrano toplotno lepljenje folijom."
+                        "note": "Plastifikacija je obostrano toplotno lepljenje folijom. Nakon plastifikacije, dokument više nije moguće izvaditi iz folije."
                     },
                     "content":[
                         "Format", "Cena",

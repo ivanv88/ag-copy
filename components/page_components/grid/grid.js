@@ -78,7 +78,7 @@ const services = [
         "index": "3"
     },
     {
-        "title": "Bul. Despota Stefana 68a (U Pasažu)", 
+        "title": "Bul. Despota Stefana 68a (U Pasažu), T: 011/ 3294 756, M: 066/ 5000 456", 
         "link": "",
         "spanC": "2",
         "spanR": "1",
